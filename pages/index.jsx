@@ -18,17 +18,15 @@ const Home = () => {
   return (
     <div style={{ padding: '20px', maxWidth: '400px', margin: 'auto' }}>
       <h1>Список дел</h1>
-      <input 
-        type="text" 
-        value={inputValue} 
-        onChange={handleInputChange} 
-        placeholder="Введите новое дело" 
-        style={{ width: '100%', padding: '10px', marginBottom: '10px' }} 
-      />
-      <button 
-        onClick={handleAddTodo} 
-        style={{ width: '100%', padding: '10px' }}
-      >
+      <input
+        type="text"
+        value={inputValue}
+        onChange={handleInputChange}
+        placeholder="Введите новое дело"
+        style={{ width: '100%', padding: '10px', marginBottom: '10px' }} />
+      <button
+        onClick={handleAddTodo}
+        style={{ width: '100%', padding: '10px' }}>
         Добавить новый пункт
       </button>
       <ul style={{ listStyleType: 'none', padding: 0 }}>
