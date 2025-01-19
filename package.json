@@ -1,0 +1,17 @@
+{
+  "name": "homework-6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "next": "^15.1.5",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}
